@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Image Slider</title>
+    <!-- font-awesome Link:- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- image_container -->
+      <div class="image_container">
+        <i class="fa fa-arrow-left btn" id="prev"></i>
+
+        <div class="slider active">
+          <img src="/Images/image1.jpg" alt="image1" />
+        </div>
+
+        <div class="slider">
+          <img src="/Images/image2.jpg" alt="image2" />
+        </div>
+
+        <div class="slider">
+          <img src="/Images/image3.webp" alt="image3" />
+        </div>
+
+        <i class="fa fa-arrow-right btn" id="next"></i>
+
+        <!-- dots -->
+        <div class="dots"></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
